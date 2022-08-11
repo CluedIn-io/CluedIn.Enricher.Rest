@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <ItemGroup>
+    <PackageReference Include="CluedIn.Core" />
+    <PackageReference Include="ComponentHost" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExternalSearch.Providers.Rest\ExternalSearch.Providers.Rest.csproj" />
+  </ItemGroup>
+
+</Project>

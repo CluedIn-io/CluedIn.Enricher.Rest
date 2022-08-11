@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <None Remove="Resources\cluedin.png" />
+    <None Remove="Resources\vatlayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\vatlayer.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CluedIn.Core" />
+    <PackageReference Include="CluedIn.ExternalSearch" />
+    <PackageReference Include="JUST.NETCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Vocabularies\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\cluedin.png" />
+  </ItemGroup>
+</Project>
